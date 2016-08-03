@@ -1,0 +1,6 @@
+production:
+  server: "http://xxx-sync.herokuapp.com/faye"
+  adapter_javascript_url: "http://xxx-sync.herokuapp.com/faye/faye.js"
+  adapter: "Faye"
+  auth_token: <=% ENV["SYNC_AUTH_TOKEN"] %>
+  async: true
